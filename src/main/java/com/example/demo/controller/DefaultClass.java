@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("")
 public class DefaultClass {
 @GetMapping(value="")
-public String getNull() {
-	return "Connect to DEV team at meet@theanimesh.in for API Docs";
+public String getNull(){
+	return "Connect to DEV team at meet@theanimesh.in for API Docs.";
 }
+@GetMapping(value="")
+public String getNull1(){
+	return "Connect2 to DEV team at meet@theanimesh.in for API Docs.";
+}
+
 }
