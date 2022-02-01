@@ -11,9 +11,6 @@ public class DefaultClass {
 public String getNull(){
 	return "Connect1 to DEV team at meet@theanimesh.in for API Docs.";
 }
-@GetMapping(value="")
-public String getNull1(){
-	return "Connect2 to DEV team at meet@theanimesh.in for API Docs.";
-}
+
 
 }
